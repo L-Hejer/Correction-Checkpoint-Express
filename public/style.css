@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+header {
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+main {
+  background-color: white;
+  margin: 0 30px;
+  height: 800px;
+}
+.NavBar {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 20px 0;
+  color: white;
+  font-size: large;
+  margin-top: 20px;
+  margin: 20px;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+li {
+  padding-left: 50px;
+}
+.Home {
+  text-decoration: underline;
+}
+.Contact {
+  text-decoration: underline;
+}
+.Services {
+  text-decoration: underline;
+}
+.Link {
+  color: #a26e42;
+  text-decoration: none;
+}
+.home-img {
+  height: 1000px;
+  width: 100%;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+
+  top: 14px;
+}
+h1 {
+  color: #a26e42;
+
+  font-size: xx-large;
+}
+h5 {
+  margin: 0;
+  position: relative;
+  bottom: 700px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+h3 {
+  margin: 0;
+  padding: 20px 20px;
+  position: relative;
+  bottom: 720px;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: x-large;
+  color: white;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-left: 40%;
+}
+.Sign-Up-Btn {
+  border-radius: 5px;
+  border: transparent;
+  background-color: #a26e42;
+  color: white;
+  padding: 10px 10px;
+  position: relative;
+  bottom: 700px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.Sign-Up-Btn:focus {
+  outline: none;
+}
+.Log-In-Btn {
+  border-radius: 5px;
+  border: transparent;
+  background-color: white;
+  color: #a26e42;
+  padding: 10px 10px;
+  position: relative;
+  bottom: 700px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.Log-In-Btn:focus {
+  outline: none;
+}
+.close-img {
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin: 0;
+  height: auto;
+}
+
+.logo-name {
+  display: flex;
+  align-items: baseline;
+}
